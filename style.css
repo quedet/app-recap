@@ -1,0 +1,25 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    line-height: 1.4;
+}
+
+#wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(86, 87, 90);
+}
+
+._content {
+    background-color: black;
+    width: 50vw;
+    padding: 1rem;
+    color: #fff;
+    border-radius: 10px;
+}
